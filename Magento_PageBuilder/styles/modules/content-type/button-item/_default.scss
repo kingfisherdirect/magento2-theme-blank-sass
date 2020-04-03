@@ -23,7 +23,7 @@ div {
             $_margin: 0 10px 10px 0,
             $_padding: $button__padding__l
         );
-        @include lib-css(font-weight, $font-weight__semibold);
+        font-weight: $font-weight__semibold;
         box-shadow: none;
         box-sizing: border-box;
         display: inline-block;
@@ -33,7 +33,7 @@ div {
         @include lib-link-as-button();
         @include lib-button-primary($_button-margin: 0 10px 10px 0);
         @include lib-button-l();
-        @include lib-css(border-radius, $button__border-radius);
+        border-radius: $button__border-radius;
         box-shadow: none;
     }
 
@@ -41,7 +41,7 @@ div {
         @include lib-link-as-button();
         @include lib-button($_button-margin: 0 10px 10px 0);
         @include lib-button-l();
-        @include lib-css(border-radius, $button__border-radius);
+        border-radius: $button__border-radius;
         box-shadow: none;
     }
 }
